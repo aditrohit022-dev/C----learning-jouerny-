@@ -6,20 +6,6 @@ My primary resource for this journey is the **"Chai aur Code"** channel. By comm
 
 ---
 
-## 📅 Progress Tracker
-
-Here is the breakdown of what I have covered so far:
-
-### 🔹 Day 1
-* **Introduction to C++**: Setting up the environment and writing the first basic C++ programs (`day1.cpp`).
-
-### 🔹 Day 2
-* **Variables & Constants**: Understanding how data is stored, manipulated, and kept constant (`day_2_[veriable_and_constants].cpp`).
-* **Data Types**: Learning about different primitive data types like `int`, `float`, `char`, `double`, etc. (`day_2_data_types.cpp`).
-* **Modifiers**: Exploring how to alter data types using modifiers like `signed`, `unsigned`, `short`, and `long` (`day_2_modifyer.cpp`).
-
----
-
 ## 🛠️ Tech & Tools Used
 * **Language:** C++
 * **Learning Source:** Chai aur Code (Hitesh Choudhary)
