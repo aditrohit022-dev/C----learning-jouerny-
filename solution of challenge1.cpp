@@ -24,8 +24,18 @@ int main(){
 return 0;
 }   
 
+//challenge:2
 
+#include <iostream>
+using namespace std;
+int main(){
+    int bais_price;
+        cout<<"Enter base price: ";
+        cin>>bais_price;
+    float new_price=bais_price+(bais_price*0.1);
+        cout<<"New price : "<<new_price<<"\n";
 
-
+return 0;
+}
 
 
