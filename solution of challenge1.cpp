@@ -38,4 +38,33 @@ int main(){
 return 0;
 }
 
+//challenge:3 
+
+#include <iostream>
+#include <string>
+using namespace std;
+int main(){
+    string fav_tea;
+    int cups;
+        cout<<"Enter you favorite tea: ";
+        getline(cin,fav_tea);
+        cout<<"How many cups of "<<fav_tea<<" would you like to have ?\nEnter your response: ";
+        cin>>cups;
+    
+    cout<<"Okey Dear!,so you want "<<cups<<" cups of "<<fav_tea<<" tea."<<"\n";
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
