@@ -52,8 +52,25 @@ int main(){
 return 0;
 }
 
+//#4
 
-
+#include <iostream>
+#include <string>
+using namespace std;
+int main(){
+    string responce;
+    
+    while(true){
+        cout<<"Do you want cup of tea ? (type 'stop' to exit): ";
+        getline(cin,responce);
+        
+        if(responce=="stop"){ 
+            break;
+        }
+    }
+    cout<<"No more cup of tea will be served!"; 
+return 0;
+}
 
 
 
