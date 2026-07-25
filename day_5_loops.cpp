@@ -72,7 +72,27 @@ int main(){
 return 0;
 }
 
+//#5
 
+#include <iostream>
+#include <string>
+using namespace std;
+int main(){
+    string tea[5]={"Orange Tea","Oolong Tea","Green Tea","Masala Tea","Cold Tea"};
+    
+    for(int i=0;i<5;i++){
+        if(tea[i]=="Green Tea"){
+            cout<<"Skipping the "<<tea[i]<<"...\n";
+            continue;
+        }
+        
+        cout<<"Brewing "<<tea[i]<<"...\n";
+        
+    }
+    cout<<"Outside the loop!";
+    
+return 0;
+}
 
 
 
