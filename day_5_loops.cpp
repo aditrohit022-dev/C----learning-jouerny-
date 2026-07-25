@@ -35,7 +35,22 @@ int main() {
 return 0;
 }
 
+//#3
 
+#include <iostream>
+#include <string>
+using namespace std;
+int main(){
+    int tea;
+    cout<<"Enter number of cups of tea to made :";
+    cin>>tea;
+    
+    for(z=1;z=<tea;z++){
+        cout<<"Brewing"<<z<<" cups of tea...";  
+    }
+    cout<<"Outside of loop!";
+return 0;
+}
 
 
 
