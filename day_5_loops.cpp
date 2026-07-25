@@ -17,5 +17,43 @@ return 0;
 
 }
 
+//#2
+
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+    string responce;
+    
+    
+    do{
+    cout<<"Do you want more tea (Yes/No) ?\n"<<"Enter";
+    getline(cin,responce);
+        
+    }while(responce==Yes||responce!=No||responce!=no);
+
+return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
