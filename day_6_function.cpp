@@ -63,9 +63,7 @@ void serveChai(int cups){
     
 }
 
-///////////////  pass by value ////////////////////////////////////////////////////////////////////////////////////////////////////
-
-[![Visualize Code](https://img.shields.io/badge/Interactive_Execution-Visualize_Code-blue?style=for-the-badge&logo=cplusplus)](https://www.codechef.com/code-visualizer/f962a8c18018eabf0ebcc6e284a698fc)
+//pass by value // code visualizer is available in read.me for each code
 
 #include <iostream>
 using namespace std;
