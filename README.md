@@ -30,20 +30,6 @@ My primary resource for this journey is the **"Chai aur Code"** channel. By comm
 [![Visualize Code](https://img.shields.io/badge/Interactive_Execution-Visualize_Code-blue?style=for-the-badge&logo=cplusplus)](https://www.codechef.com/code-visualizer/f962a8c18018eabf0ebcc6e284a698fc)
 
 
-#include <iostream>
-using namespace std;
-
-void pouerdcups(int cups) {
-    cups += 5;
-    cout << "Total cups: " << cups << "\n";
-}
-
-int main() {
-    int cup = 5;
-    pouerdcups(cup);
-    cout << "pouring " << cup << " cups...";
-}
-
 
 
 
