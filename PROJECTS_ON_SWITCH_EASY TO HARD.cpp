@@ -62,12 +62,12 @@ int main()
 
 //Key Concept: Keeping code clean and readable even when branching logic gets deeper.
 
-
 #include <iostream>
 using namespace std;
-int main(){
-//veriables
-float temp,len,weg;
+int main()
+{
+    //veriables 
+    float temp,len,weg;
     int num;
     char s1;
     //end veriables
@@ -81,75 +81,66 @@ float temp,len,weg;
     cout<<"\t"<<"Choose number of option in respactive of the unit you would like to convert:";
     cin>>num;
     cout<<"=======================================================================================\n";
-    //switch.1 for main menu
+    
     switch(num){
         case 1: cout<<"\t" <<"Sub menu for Temprature,\n";
                   cout<<"\t"<< 'A'<<" .celsius to fehrenhite,\n";
-                  cout<<"\t"<<'B'<<" .fehenhite to celsius,\n";
+                  cout<<"\t"<<'B'<<" .fehrenhite to celsius,\n";
                   cout<<"\t"<<"Enter the option to choose the convertion:";
                   cin>>s1;
-                    switch(s1){
+                  switch(s1){
                     case 'A': cout<<"\t"<<"Enter The Temprature in celsius:";
                               cin>>temp;
                               cout<<"\t"<<"Temprature in fehrenhite is "<<(temp*9/5) + 32<<"F\n";
                                 break;
                     case 'B':
-                              cout<<"Enter The Temprature in fehrenhite:";
+                              cout<<"\tEnter The Temprature in fehrenhite:";
                               cin>>temp;
-                              cout<<"Temprature in celsius is "<<(temp-32)*5/9 <<"C\n";
+                              cout<<"\tTemprature in celsius is "<<(temp-32)*5/9 <<"C\n";
                                 break;
-                    }
-                    break;
+
+                  }
+                  break;
         case 2:
                   cout<<"\t" <<"Sub menu for Lenght,\n";
                   cout<<"\t"<< 'A'<<" .centimetrs to meters,\n";
-                  cout<<"\t"<<'B'<<" .kilomiters to miles,\n";
+                  cout<<"\t"<<'B'<<" .kilometers to miles,\n";
                   cout<<"\t"<<"Enter the option to choose the convertion:";
                   cin>>s1;
-                    switch(s1){
+                  switch(s1){
                     case 'A': cout<<"\t"<<"Enter The Lenght in centimetrs:";
                               cin>>len;
                               cout<<"\t"<<"Lenght in meters is "<<len/100<<"m\n";
                                 break;
                     case 'B':
-                              cout<<"Enter The Lenght in kilomiter:";
+                              cout<<"\tEnter The Lenght in kilomiter:";
                               cin>>len;
-                              cout<<"Length in miles is "<<len/1.609<<" miles\n";
+                              cout<<"\tLength in miles is "<<len/1.609<<" miles\n";
                                 break;
-                    }
+                  }
                   break;
         case 3: 
                   cout<<"\t" <<"Sub menu for Weight,\n";
                   cout<<"\t"<< 'A'<<" .grams to kilograms,\n";
-                  cout<<"\t"<<'B'<<" .kilograms to tuns,\n";
+                  cout<<"\t"<<'B'<<" .kilograms to tonne,\n";
                   cout<<"\t"<<"Enter the option to choose the convertion:";
                   cin>>s1;
-                    switch(s1){
+                  switch(s1){
                     case 'A': cout<<"\t"<<"Enter The Weight in grams:";
                               cin>>weg;
                               cout<<"\t"<<"Weight in Kg is "<<weg*1000<<" Kg\n";
                                 break;
                     case 'B':
-                              cout<<"Enter The Weight in kilograms:";
+                              cout<<"\tEnter The Weight in kilograms:";
                               cin>>weg;
-                              cout<<"Weight in tonne is "<<weg/1000<<" tonne\n";
+                              cout<<"\tWeight in tonne is "<<weg/1000<<" tonne\n";
                                 break;
                   break;
                   }
-                
-
 
 
     }
-
+cout<<"============<<<<<<<<<<<<<  YOU ARE OUT OF THE UNIT CONVERTER ! >>>>>>>>>>>>================\n\n";
+    
 }
-
-
-
-
-
-
-
-
-
 
