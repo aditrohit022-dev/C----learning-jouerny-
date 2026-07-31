@@ -1,5 +1,5 @@
 
-//🟢 Level 1: Beginner (Getting the Basics Down)
+//🟢  Beginner (Getting the Basics Down)
 //These projects focus strictly on syntax, handling case labels, break statements, and the default case.
 
 //1. Simple Calculator
@@ -53,7 +53,7 @@ int main()
     } 
         return 0;
 }
-
+//🔴 (Real-World Application)
 //unit converter 
 //The Goal: 1. Main Menu: Choose Category (1. Temperature, 2. Length, 3. Weight).
 //2. Sub-Menu: Choose specific conversion (e.g., Celsius to Fahrenheit vs. Fahrenheit to Celsius).
