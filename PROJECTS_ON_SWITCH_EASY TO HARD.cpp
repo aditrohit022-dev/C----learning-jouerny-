@@ -98,6 +98,7 @@ float temp,len,weg;
                               cin>>temp;
                               cout<<"Temprature in celsius is "<<(temp-32)*5/9 <<"C\n";
                                 break;
+                    }
                     break;
         case 2:
                   cout<<"\t" <<"Sub menu for Lenght,\n";
@@ -115,6 +116,7 @@ float temp,len,weg;
                               cin>>len;
                               cout<<"Length in miles is "<<len/1.609<<" miles\n";
                                 break;
+                    }
                   break;
         case 3: 
                   cout<<"\t" <<"Sub menu for Weight,\n";
@@ -122,7 +124,19 @@ float temp,len,weg;
                   cout<<"\t"<<'B'<<" .kilograms to tuns,\n";
                   cout<<"\t"<<"Enter the option to choose the convertion:";
                   cin>>s1;
+                    switch(s1){
+                    case 'A': cout<<"\t"<<"Enter The Weight in grams:";
+                              cin>>weg;
+                              cout<<"\t"<<"Weight in Kg is "<<weg*1000<<" Kg\n";
+                                break;
+                    case 'B':
+                              cout<<"Enter The Weight in kilograms:";
+                              cin>>len;
+                              cout<<"Weight in tonne is "<<len/1000<<" tonne\n";
+                                break;
                   break;
+                  }
+                
 
 
 
