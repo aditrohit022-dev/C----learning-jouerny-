@@ -54,11 +54,61 @@ int main()
         return 0;
 }
 
+//unit converter 
+//The Goal: 1. Main Menu: Choose Category (1. Temperature, 2. Length, 3. Weight).
+//2. Sub-Menu: Choose specific conversion (e.g., Celsius to Fahrenheit vs. Fahrenheit to Celsius).
+
+//Switch Focus: Nested switch statements (a switch inside another switch).
+
+//Key Concept: Keeping code clean and readable even when branching logic gets deeper.
+
+
+#include <iostream>
+using namespace std;
+int main(){
+//veriables
+float temp,len,weg;
+    int num;
+    char s1;
+    //end veriables
+    //menu
+    cout<<"=======================================================================================\n";
+    cout<<"\t"<<"Main menu,"<<"\n";
+    cout<<"\t"<<"1"<<".Temprature (in celsius)\n";
+    cout<<"\t"<<"2"<<".Lenght (in centimetrs)\n";
+    cout<<"\t"<<"3"<<".Weight (in grams)\n";
+
+    cout<<"\t"<<"Choose number of option in respactive of the unit you would like to convert:";
+    cin>>num;
+    cout<<"=======================================================================================\n";
+    //switch.1 for main menu
+    switch(num){
+        case 1: cout<<"\t" <<"Sub menu for Temprature,\n";
+                  cout<<"\t"<< 'A'<<" .celsius to fehrenhite,\n";
+                  cout<<"\t"<<'B'<<" .fehenhite to celsius,\n";
+                  cout<<"\t"<<"Enter the option to choose the convertion:";
+                  cin>>s1;
+                  break;
+        case 2:
+                  cout<<"\t" <<"Sub menu for Lenght,\n";
+                  cout<<"\t"<< 'A'<<" .centimetrs to meters,\n";
+                  cout<<"\t"<<'B'<<" .meters to kilometers,\n";
+                  cout<<"\t"<<"Enter the option to choose the convertion:";
+                  cin>>s1;
+                  break;
+        case 3: 
+                  cout<<"\t" <<"Sub menu for Weight,\n";
+                  cout<<"\t"<< 'A'<<" .grams to kilograms,\n";
+                  cout<<"\t"<<'B'<<" .kilograms to tuns,\n";
+                  cout<<"\t"<<"Enter the option to choose the convertion:";
+                  cin>>s1;
+                  break;
 
 
 
+    }
 
-
+}
 
 
 
