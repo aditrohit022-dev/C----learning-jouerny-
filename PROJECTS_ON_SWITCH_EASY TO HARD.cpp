@@ -74,9 +74,9 @@ float temp,len,weg;
     //menu
     cout<<"=======================================================================================\n";
     cout<<"\t"<<"Main menu,"<<"\n";
-    cout<<"\t"<<"1"<<".Temprature (in celsius)\n";
-    cout<<"\t"<<"2"<<".Lenght (in centimetrs)\n";
-    cout<<"\t"<<"3"<<".Weight (in grams)\n";
+    cout<<"\t"<<"1"<<".Temprature \n";
+    cout<<"\t"<<"2"<<".Lenght \n";
+    cout<<"\t"<<"3"<<".Weight \n";
 
     cout<<"\t"<<"Choose number of option in respactive of the unit you would like to convert:";
     cin>>num;
@@ -88,7 +88,17 @@ float temp,len,weg;
                   cout<<"\t"<<'B'<<" .fehenhite to celsius,\n";
                   cout<<"\t"<<"Enter the option to choose the convertion:";
                   cin>>s1;
-                  break;
+                    switch(s1){
+                    case 'A': cout<<"\t"<<"Enter The Temprature in celsius:";
+                              cin>>temp;
+                              cout<<"\t"<<"Temprature in fehrenhite is "<<(temp*9/5) + 32<<"F\n";
+                                break;
+                    case 'B':
+                              cout<<"Enter The Temprature in fehrenhite:";
+                              cin>>temp;
+                              cout<<"Temprature in celsius is "<<(temp-32)*5/9 <<"C\n";
+                                break;
+                    break;
         case 2:
                   cout<<"\t" <<"Sub menu for Lenght,\n";
                   cout<<"\t"<< 'A'<<" .centimetrs to meters,\n";
