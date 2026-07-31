@@ -102,9 +102,19 @@ float temp,len,weg;
         case 2:
                   cout<<"\t" <<"Sub menu for Lenght,\n";
                   cout<<"\t"<< 'A'<<" .centimetrs to meters,\n";
-                  cout<<"\t"<<'B'<<" .meters to kilometers,\n";
+                  cout<<"\t"<<'B'<<" .kilomiters to miles,\n";
                   cout<<"\t"<<"Enter the option to choose the convertion:";
                   cin>>s1;
+                    switch(s1){
+                    case 'A': cout<<"\t"<<"Enter The Lenght in centimetrs:";
+                              cin>>len;
+                              cout<<"\t"<<"Lenght in meters is "<<len/100<<"m\n";
+                                break;
+                    case 'B':
+                              cout<<"Enter The Lenght in kilomiter:";
+                              cin>>len;
+                              cout<<"Length in miles is "<<len/1.609<<" miles\n";
+                                break;
                   break;
         case 3: 
                   cout<<"\t" <<"Sub menu for Weight,\n";
