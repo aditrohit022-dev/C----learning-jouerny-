@@ -131,8 +131,8 @@ float temp,len,weg;
                                 break;
                     case 'B':
                               cout<<"Enter The Weight in kilograms:";
-                              cin>>len;
-                              cout<<"Weight in tonne is "<<len/1000<<" tonne\n";
+                              cin>>weg;
+                              cout<<"Weight in tonne is "<<weg/1000<<" tonne\n";
                                 break;
                   break;
                   }
