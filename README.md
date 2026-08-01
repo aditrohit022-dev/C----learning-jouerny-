@@ -33,7 +33,8 @@ My primary resource for this journey is the **"Chai aur Code"** channel. By comm
 [![Visualize Code](https://img.shields.io/badge/Interactive_Execution-Visualize_Code-blue?style=for-the-badge&logo=cplusplus)](https://www.codechef.com/code-visualizer/f962a8c18018eabf0ebcc6e284a698fc)
 
 
+# Article for vector
 
-
+<img width="1366" height="768" alt="Screenshot_20260801-140647" src="https://github.com/user-attachments/assets/748c1cb0-875c-4a75-8d8a-eed68e6cab5a" />
 
 
