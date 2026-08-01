@@ -37,4 +37,5 @@ My primary resource for this journey is the **"Chai aur Code"** channel. By comm
 
 <img width="1366" height="768" alt="Screenshot_20260801-140647" src="https://github.com/user-attachments/assets/748c1cb0-875c-4a75-8d8a-eed68e6cab5a" />
 
+<img width="752" height="133" alt="Screenshot_20260801-143445" src="https://github.com/user-attachments/assets/ec558838-46ef-4e7f-bed1-eb3db79177df" />
 
